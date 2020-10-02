@@ -9,10 +9,15 @@
     <img src="./ahmed_abuwarda.jpg" alt="Photo for Ahmed Abuwarda" style="width: 20%">
     <h2>About me</h2>
     <p>
-        Hello There!, My name is Ahmed Abuwarda, 22 years old, Studying Computer Engineering at The Islamic University of Gaza,
-        I love cats, fast food, coffee and coding.<br/>
-        my friends often call me "The young guy!".<br/>
-        <br/># lets deg in to what i can do:
+        Hello There!, My name is Ahmed Abuwarda, <b>22</b> years old, Studying Computer Engineering at The <b>Islamic University of Gaza,</b>
+        <br/>Things I love:
+    <ol>
+        <li>cats.</li>
+        <li>fast food.</li>
+        <li>coffee and coding.</li>
+    </ol>
+    My friends often call me "The young guy!".<br/>
+        <br/>### lets deg in to what i can do ###
     </p>
     <table border="1">
         <thead>
@@ -40,6 +45,34 @@
             </tr>
         </tbody>
     </table>
+    <br/><hr/>
+    <h2>If you would like to enroll my classes, just fill in this form:</h2>
+    <form action="index.html" method="get">
+        <label for="username">User Name:</label>
+        <input type="text" name="username" id="username"><br/>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email"><br/>
+
+        <input type="radio" name="Gender" value="male" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="Gender" value="female" id="femail">
+        <label for="femail">Female</label><br/>
+
+        <label for="date">Choose enroll date:</label>
+        <input type="date" name="date" id="date"><br/>
+        <label>Which class do you want to enroll ?</label>
+        <select id="courses" name="courses">
+            <option value=""></option>
+            <option value="Math">Math</option>
+            <option value="Arabic">Arabic</option>
+            <option value="Physics">Physics</option>
+            <option value="English">English</option>
+        </select><br/><br/>
+        <label>Tell me about your knowledge ?</label><br/>
+        <textarea name="about" rows="10"></textarea><br/>
+        <input type="submit" name="submit" value="submit">
+    </form>
+    <br/><hr/>
     <h2>Contact me</h2>
     <ul>
         <li><a href="tel:+972599409772">Phone Number</a></li>
